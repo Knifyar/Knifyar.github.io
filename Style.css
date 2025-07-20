@@ -1,0 +1,34 @@
+.grimoire-page{
+    background-image: url("https://www.myfreetextures.com/wp-content/uploads/2013/07/old-brown-vintage-parchment-paper-texture.jpg"); /*("AgedParchment_04.jpg");*/ /*https://www.myfreetextures.com/wp-content/uploads/2013/07/old-brown-vintage-parchment-paper-texture.jpg*/
+    border: 2px solid black;
+    background-color: transparent;
+    color: black;
+    font-weight: bold;
+    font-size: x-large;
+}
+
+/* CSS for screen display */
+.page-break-line {
+  margin: 10px 0; /* Adjust spacing as needed */
+  border-top: 2.5px solid #c5c5c5; /* Dotted line for screen */
+}
+
+/* CSS for print */
+@media print {
+  .page-break-line {
+    page-break-before: always; /* Force a page break before the element */
+    padding: 0;
+    margin: 0;
+    border: none; /* Hide the dotted line in print */
+  }
+}
+
+.system-message{
+    background-color: blue;
+    border: 2.5px solid gold;
+    padding: 15px;
+    color: white;
+    border-radius: 5px;
+    font-size: 200%;
+    font-weight: bold;
+}
